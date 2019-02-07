@@ -15,15 +15,32 @@ array[1] = 'hello';
 // for practice
 
 // use forEach
+array[10] = 10;
+console.log(array);
+array.forEach((n) => {
+    console.log(n);
+});
 
 // use map
+arrayTest = [9,3,4];
+const newArray = arrayTest.map(i => i + 1);
+console.log(arrayTest);
+console.log(newArray);
 
-// use pop
+// use pop -> pop last item
+newArray.pop();
+console.log(newArray);
 
-// use push
+// use push -> insert to end of array
+newArray.push(6);
+console.log(newArray);
 
-// use shift
+// use shift -> remove head
+newArray.shift();
+console.log(newArray);
 
-// use unshift
+// use unshift -> add head
+newArray.unshift(5);
+console.log(newArray);
 
 // use filter
